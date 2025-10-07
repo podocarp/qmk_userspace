@@ -15,12 +15,13 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include QMK_KEYBOARD_H
-#include "layout.h"
 
 enum custom_keycodes {
     MACRO_GRAVE = SAFE_RANGE,
     MACRO_QUOTES,
 };
+
+#include "layout.h"
 
 enum combo_events {
     COMBO_EVENT_BRACES,
